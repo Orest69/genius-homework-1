@@ -1,0 +1,163 @@
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v30-latin-700.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/play-v19-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/play-v19-latin-700.woff2") format("woff2");
+}
+
+/* css */
+:root {
+  --color-primery-white: #ffffff;
+  --color-primery-light: #2b7fff;
+  --color-primery-dark: #011c44;
+  --color-secondary-dark: #4a4a4a;
+  --color-dark: #000000;
+  --color-gray: #747272;
+}
+
+/* base */
+body {
+  color: var(--color-primery-dark);
+  font-weight: 400;
+  font-family: Roboto;
+  line-height: 1.2;
+  font-size: 18px;
+}
+h2 {
+  font-family: play;
+  font-weight: 700;
+  font-size: 64px;
+}
+/* nav */
+.nav-link {
+  text-decoration: none;
+  color: var(--color-primery-light);
+}
+.nav-link:hover {
+  font-weight: 700;
+  color: var(--color-primery-light);
+}
+/* button */
+.button {
+  color: var(--color-primery-white);
+  font-weight: 600;
+  background-color: var(--color-primery-light);
+  padding: 16px 32px 16px 32px;
+  border-radius: 32px;
+  border: 2px solid var(--color-primery-light);
+}
+.button:hover {
+  color: var(--color-primery-dark);
+  background-color: transparent;
+}
+/* section 1 */
+/* hero-title */
+.hero-title {
+  color: var(--color-primery-light);
+  font-family: play;
+  font-weight: 700;
+  font-size: 140px;
+  line-height: 0.8;
+}
+.free-consultation {
+  font-size: 12px;
+  color: var(--color-secondary-dark);
+  line-height: 1.5;
+}
+/* section 2*/
+/* .our-hospital-title {
+  
+} */
+.our-hospital-title-span {
+  color: var(--color-primery-light);
+}
+.our-hospital-text {
+  font-size: 22px;
+  line-height: 1.7;
+}
+.our-hospital-text-span {
+  font-weight: 600;
+}
+/* section 3*/
+/* .why-we-title {
+ 
+} */
+.why-we-title-span {
+  color: var(--color-primery-light);
+}
+.why-we-text {
+  line-height: 1.3;
+  color: var(--color-dark);
+}
+/* section 4*/
+/* .procedures-title {
+
+} */
+.procedures-title-span {
+  color: var(--color-primery-light);
+}
+.procedures-text {
+  color: var(--color-primery-white);
+  font-size: 22px;
+}
+/* section 4*/
+.contacts-title-span {
+  color: var(--color-primery-light);
+}
+.contacts-text {
+  color: var(--color-primery-white);
+  font-weight: 600;
+}
+.contacts-text-span {
+  color: var(--color-primery-light);
+}
+.politic {
+  font-size: 12px;
+  color: var(--color-gray);
+  line-height: 1.5;
+}
+/* footer */
+footer {
+  /* background-color: #000000; */
+}
+.footer-beaty-zone {
+  color: var(--color-primery-light);
+  text-decoration: none;
+  font-family: play;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 0.9;
+}
+.footer-link {
+  color: var(--color-primery-white);
+  font-size: 16px;
+  text-decoration: none;
+}
+.footer-date-save{
+   color: var(--color-gray);
+    font-size: 13px;
+
+}
